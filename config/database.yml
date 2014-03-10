@@ -32,3 +32,12 @@ development:
  # host: apponcloud.org
  host: localhost
  encoding: utf8 
+
+production:
+ adapter: mysql2
+ database: grapps
+ username: root
+ password: guufy999
+ # host: apponcloud.org
+ host: localhost
+ encoding: utf8 
