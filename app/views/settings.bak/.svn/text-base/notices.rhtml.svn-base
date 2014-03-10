@@ -1,5 +1,0 @@
-﻿<%@page_title = _("Email Notices")%>
-<div class="panel">
-    <%=render :partial => 'settings/navigation' %>
-    <%=render :partial => 'settings/notices' %>
-</div>

@@ -1,7 +1,0 @@
-<h1><%=_('Settings')%></h1>
-<div class="fs3 f13" style="margin-bottom: 18px;" >
-    <%=link_to_unless_current _("Account"), {:controller => 'settings', :action => "account"}%>
-    &nbsp;|&nbsp;<%=link_to_unless_current _("Profile"), {:controller => 'settings', :action => "profile"}%>
-    &nbsp;|&nbsp;<%=link_to_unless_current _("Notices"), {:controller => 'settings', :action => "notices"}%>
-    &nbsp;|&nbsp;<%=link_to_unless_current _("Connections"), {:controller => 'settings', :action => "connections"}%>
-</div>

@@ -1,2 +1,0 @@
-<%_help=_('Usage: Attach some photos(up to 4, or you may fail to upload), add title in mail subject. The mail body will be ignored.')%>
-<%=_('Your personal mailbox for uploading: ')%> <a href="mailto:<%=@current_user.mailbox%>?body=<%=_help%>"><%=@current_user.mailbox%></a>
