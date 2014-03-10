@@ -1,0 +1,14 @@
+﻿<%@page_title = _("Email Notices")%>
+<style>
+    #main table {font-size: 16px;}
+    input {color: #333; padding:2px; }
+    .fieldWithErrors {float:left; padding: 1px; background-color: red; }
+    .formError {float:left; vertical-align: middle; margin-left: 10px; color: red;}
+</style>
+<div class="page_title">
+    <%=_('Settings')%>
+</div>
+<div id="main" class="">
+    <%=render :partial => 'settings/navigation' %>
+    <%=render :partial => 'settings/notices' %>
+</div>

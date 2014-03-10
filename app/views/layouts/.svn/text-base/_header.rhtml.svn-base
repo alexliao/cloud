@@ -1,0 +1,7 @@
+    <HEAD>
+        <TITLE><%=[@page_title, _('Cloud')].compact.join(' - ')%></TITLE>
+        <META http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <META name="keywords" content="Android app, share app, cloud, send app, 安卓, 软件, 应用, 分享, 发送"/>	
+        <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+        <link rel="shortcut icon" href="/icon16.png" />
+    </HEAD>

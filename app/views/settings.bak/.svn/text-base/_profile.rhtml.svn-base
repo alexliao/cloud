@@ -1,0 +1,8 @@
+<%@user = @current_user%>
+<%@user.web = "http://" if @user.web.blank?%>
+<%= form_tag({:controller => "settings", :action => 'profile'}, :onsubmit => "$('submit').disabled = true; return true;")%>
+<%=render :partial => 'settings/profile_form' %>
+<div align="right">
+    <%=flash[:notice_profile]%>&nbsp;&nbsp;<%=submit_tag _('Save'), :id => "submit", :class => 'btn2'%>
+</div>
+<%= end_form_tag %>

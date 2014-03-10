@@ -1,0 +1,14 @@
+# Sample localization file for English. Add more files in this directory for other locales.
+# See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
+
+en:
+  cloud: Cloud
+  desc1: 'Cloud is the best way to give apps'
+  desc2: 'To your girlfriend or mom'
+  desc3: 'Just send it to their phones'
+  download_button: 'Give me Cloud'
+  get_it: Get it
+  goofy2_team: 'Goofy2 Team'
+  size: size
+  version: Version
+  what_is_cloud: What is cloud?

@@ -1,0 +1,13 @@
+<br/>
+<img src="/images/cloud_big.png"><br/>
+<br/><br/>
+<span><%=_('Cloud is the best way to give apps')%></span><br/>
+<span><%=_('To your girlfriend or mom')%></span><br/>
+<br/>
+<span><%=_('Just send it to their phones')%></span><br/>
+<br/>
+<a href="/downloads/cloud.apk"><%=_('Give me Cloud')%></a>
+<br/><br/><br/><br/><br/>
+<%=render :partial => "shared/btn_lang"%>
+<br/><br/>
+<%=_('Goofy2 Team')%>

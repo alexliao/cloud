@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/qoofi/!svn/ver/4302/trunk/grapps/app/views/admin
+END
+invite.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/qoofi/!svn/ver/4302/trunk/grapps/app/views/admin/invite.rhtml
+END
+index.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/qoofi/!svn/ver/4302/trunk/grapps/app/views/admin/index.rhtml
+END
+login.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/qoofi/!svn/ver/4302/trunk/grapps/app/views/admin/login.rhtml
+END
+mailer.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/qoofi/!svn/ver/4302/trunk/grapps/app/views/admin/mailer.rhtml
+END

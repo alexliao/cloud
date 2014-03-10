@@ -1,0 +1,4 @@
+<div class="panel">
+    <%=render :partial => 'settings/navigation' %>
+    <%=render :partial => 'settings/account' %>
+</div>

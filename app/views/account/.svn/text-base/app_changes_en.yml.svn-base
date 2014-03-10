@@ -1,0 +1,6 @@
+---
+changes: 
+  - code: 670
+    note: support uploading in background.
+  - code: 600
+    note: Change domain to apponcloud.org. Uninstall the old version first if you fail to upgrade.

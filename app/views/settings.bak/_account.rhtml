@@ -1,0 +1,11 @@
+<%@user = @current_user%>
+<%= form_tag({:controller => params[:controller], :action => 'account'}, :onsubmit => "$('submit').disabled = true; return true;")%>
+<%=render :partial => 'settings/account_form' %>
+<div class="float fs3" style="padding-top: 8px;">         
+    <a href="/account/deactivate"><%=_('Deactivate my account')%></a>
+</div>
+<div class="rfloat">
+    <%=flash[:notice_account]%>&nbsp;&nbsp;<%=submit_tag _('Save'), :id => "submit", :class => 'btn2'%>
+</div>
+<div class="clear"></div>
+<%= end_form_tag %>

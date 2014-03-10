@@ -1,0 +1,24 @@
+<%if @app%>
+<%@no_header = true%>
+    <style>
+        #d_d:hover {text-decoration: underline;}
+        
+    </style>
+    <div >
+        <img src="<%=@app.icon%>" style="margin-bottom: 10px; max-width: 80px;"><br/>
+        <span ><%=params[:n] || @app.local_name(params[:lr]||session[:code]) %></span><br/>
+        <span ><%=t(:version)%> <%=@app.version_name%></span><br/>
+        <span ><%=t(:size)%> <%="%.2fMB"%(@app[:size]/1024.0/1024.0)%></span><br/>
+        <br/>
+        <a id="a_d" href="<%=@app.apk%>" style="color: white; display: block;">
+            <div id="d_d" >
+                <img src="/images/cloud_big.png" />
+                <div style="position: relative; top: -35px; left: 90px;" ><%=t(:get_it)%></div>
+            </div>
+        </a>
+        <br/><br/>
+        <a href="/"><%=t(:what_is_cloud)%></a>
+    </div>
+<%else%>
+App not found!
+<%end%>

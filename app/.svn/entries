@@ -1,0 +1,40 @@
+8
+
+dir
+4876
+http://bannka.com/svn/qoofi/trunk/grapps/app
+http://bannka.com/svn/qoofi
+
+
+
+2012-05-26T09:03:04.674014Z
+4876
+alex
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+0b04c7a9-2997-084b-9d27-991e4ab2a4ef
+
+helpers
+dir
+
+models
+dir
+
+controllers
+dir
+
+views
+dir
+

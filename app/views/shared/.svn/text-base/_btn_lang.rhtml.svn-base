@@ -1,0 +1,9 @@
+<%pl=params.clone%>
+<%if session[:lang] == 'zh' -%>
+    <%pl[:lang] = 'en'-%>
+    <%name = 'English' -%>
+<%else -%>
+    <%pl[:lang] = 'zh'-%>
+    <%name = '中文' -%>
+<%end -%>
+<%=link_to name, pl%>

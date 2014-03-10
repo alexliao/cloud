@@ -1,0 +1,37 @@
+<style>
+    .form td {padding-bottom: 15px; }
+    .form th {text-align: left; padding-right: 20px; color: #333; font-weight: normal;}
+    input {color: #333; padding:2px; }
+    .fieldWithErrors {float:left; padding: 1px; background-color: red; }
+    .formError {float:left; vertical-align: middle; margin-left: 10px; color: red;}
+</style>
+<%@form = @current_user.setting%>
+<%= form_tag({:controller => "settings", :action => "notices"}, :onsubmit => "$('submit').disabled = true; return true;")%>
+<table class="form" cellspacing = "0" style="padding-right: 16px;">
+    <tr>
+        <td>
+            <%=check_box("form","notice_follow",:id => "notice_follow")%><label for="notice_follow" ><%=_('Email when someone starts following you')%></label>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <%=check_box("form","notice_update",:id => "notice_update")%><label for="notice_update" ><%=_('Email when you get new update from people you follow')%></label>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <%=check_box("form","notice_comment",:id => "notice_comment")%><label for="notice_comment" ><%=_('Email when you get new comment on updates you follow')%></label>
+        </td>
+    </tr>
+    <!--
+    <tr>
+        <td>
+            <%=check_box("form","notice_dm",:id => "notice_dm")%><label for="notice_dm" ><%=_('Email when I receive a new direct message')%></label>
+        </td>
+    </tr>-->
+</table>
+<div align="right">
+    <%=flash[:notice_notices]%>&nbsp;&nbsp;<%=submit_tag _('Save'), :id => "submit", :class => 'btn2'%>
+</div>
+<%= end_form_tag %>
+

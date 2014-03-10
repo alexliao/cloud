@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/qoofi/!svn/ver/4302/trunk/grapps/app/views/settings
+END
+_mailbox.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/qoofi/!svn/ver/4302/trunk/grapps/app/views/settings/_mailbox.rhtml
+END
+_account.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/qoofi/!svn/ver/4302/trunk/grapps/app/views/settings/_account.rhtml
+END
+account.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/qoofi/!svn/ver/4302/trunk/grapps/app/views/settings/account.rhtml
+END
+_navigation.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/qoofi/!svn/ver/4302/trunk/grapps/app/views/settings/_navigation.rhtml
+END
+_profile.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/qoofi/!svn/ver/4302/trunk/grapps/app/views/settings/_profile.rhtml
+END
+profile.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/qoofi/!svn/ver/4302/trunk/grapps/app/views/settings/profile.rhtml
+END
+_notices.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/qoofi/!svn/ver/4302/trunk/grapps/app/views/settings/_notices.rhtml
+END
+notices.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/qoofi/!svn/ver/4302/trunk/grapps/app/views/settings/notices.rhtml
+END
+account_m.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/qoofi/!svn/ver/4302/trunk/grapps/app/views/settings/account_m.rhtml
+END
+all.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/qoofi/!svn/ver/4302/trunk/grapps/app/views/settings/all.rhtml
+END
+_account_form.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/qoofi/!svn/ver/4302/trunk/grapps/app/views/settings/_account_form.rhtml
+END
+notices_m.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/qoofi/!svn/ver/4302/trunk/grapps/app/views/settings/notices_m.rhtml
+END
+_connections.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/qoofi/!svn/ver/4302/trunk/grapps/app/views/settings/_connections.rhtml
+END
+_profile_form.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/qoofi/!svn/ver/4302/trunk/grapps/app/views/settings/_profile_form.rhtml
+END
+connections.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/qoofi/!svn/ver/4302/trunk/grapps/app/views/settings/connections.rhtml
+END
+_a_connect.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/qoofi/!svn/ver/4302/trunk/grapps/app/views/settings/_a_connect.rhtml
+END

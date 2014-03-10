@@ -1,0 +1,6 @@
+---
+changes: 
+  - code: 670
+    note: 支持后台上传。
+  - code: 600
+    note: 启用域名apponcloud.org。如果升级不成功，请先卸载旧的版本。

@@ -1,0 +1,15 @@
+﻿<%@page_title = "后台管理功能"%>
+<%@page_id = 'pg_admin'%>
+<div id="main" >
+    <div class="float"> 
+        <h2><%= icon_with_text('/images/star_green.gif', link_to('用户统计', :controller => 'admin', :action => "invite"),20)%></h2>
+        <h2><%#= icon_with_text('/images/star_green.gif', link_to('邀请vantica用户', "/admin/mailer?lang=zh&send_action=send_vantica&title=vantica用户"),20)%></h2>
+    </div>
+    <%if params[:dev]%>
+    <div style="float: right;">
+        <h2 id='gen_user_id'><%= icon_with_text('/img/icons/star_grey.gif', link_to_remote('整理第三方user_id', {:url => {:controller => 'admin', :action => "gen_user_id"} ,:update => 'gen_user_id', :condition => "confirm('将对所有用户生成第三方user_id,可能要花费很长时间，确定吗？')", :loading => "add_loading('loading','gen_user_id')"}, :title => '可重复执行'),20)%></h2>
+    </div>
+    <%end%>
+    <div class="clear"></div>
+</div>
+<br><br><br><br>

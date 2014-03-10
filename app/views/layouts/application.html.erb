@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+    <%=render(:partial =>  'layouts/header') %>
+    <style>
+        html, body {width: 100%; margin: 0px; padding: 0px; background-color: #f7f7f7;}
+        #content {
+            padding: 40px; 
+            font-size: 10pt;
+            color: #808080;
+            font-family: Georgia;
+            line-height: 150%;
+        }
+        a, a:visited{
+            color: #80b0e1;
+        }
+    </style>
+    <body id="<%=@page_id%>" class="<%=session[:lang]%>">
+        <div id="content">
+            <%unless @no_header%>
+            <div style="margin-bottom: 20px;">
+                <a href="/"><img id="logo" src='/logo_<%=session[:lang]%>.png' /></a>
+            </div>
+            <%end%>
+            <div>
+                <%=yield%>
+            </div>
+        </div>
+        <%if Rails.env == 'production'%>
+        <script type="text/javascript">
+        
+          var _gaq = _gaq || [];
+          _gaq.push(['_setAccount', 'UA-1621057-7']);
+          _gaq.push(['_trackPageview']);
+        
+          (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+          })();
+        
+        </script>
+        <%end%>
+    </body>
+</HTML>

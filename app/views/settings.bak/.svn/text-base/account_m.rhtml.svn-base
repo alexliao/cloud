@@ -1,0 +1,7 @@
+<div class="page_title">
+    <%=_('Settings')%>
+</div>
+<div id="main" class="">
+    <%=render :partial => 'settings/navigation' %>
+    <%=render :partial => 'settings/account' %>
+</div>

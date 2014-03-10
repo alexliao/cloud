@@ -1,0 +1,19 @@
+<%@page_title="用户统计"%>
+<div id="main">
+    <div >
+        <table border=1 cellspacing=0 cellpadding=5 style="">
+            <tr>
+                <td colspan=4>
+                    注册用户的人数共有<%=@users_count_all%>
+                <a href="/admin/mailer?send_action=send_inner&title=注册用户">给他们发送邮件</a>
+                </td>
+            </tr>
+        <tr><th>日期</th><th align='right'>人数</th>
+        <%@users_days.each do |day|%>
+        <tr><td><%=day.d%></td><td align='right'><%=day.c%></td></tr>
+        <%end%>
+        </table>
+    </div>
+</div>
+<div class="clear"></div>
+<br/><br/>
