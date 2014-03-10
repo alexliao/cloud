@@ -4,10 +4,9 @@ Cloud::Application.routes.draw do
   # map.connect 'apps/:id', :controller => "apps", :action => "show", :id => /\d+/
   
   resources :reports
-  resources :apps
 
   root :to => 'default#index'
-  # match 'apps/:id' => 'apps#show', :id => /\d+/
+  match 'apps/:id' => 'apps#show', :id => /\d+/
 
 
   # map.connect ':controller/:action/:id'
