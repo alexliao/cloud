@@ -79,6 +79,10 @@ class AppsController < ApplicationController
     
   def show
     @app = App.find(:first, :conditions => ["id=?", params[:id]])
+    respond_to do |format|
+      format.html # show.html.erb
+      format.json { api_response @app.facade(), "app" }
+    end
   end  
   
   #api
