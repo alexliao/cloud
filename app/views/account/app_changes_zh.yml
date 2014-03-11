@@ -1,5 +1,7 @@
 ---
 changes: 
+  - code: 700
+    note: 推荐万宝乐。
   - code: 670
     note: 支持后台上传。
   - code: 600

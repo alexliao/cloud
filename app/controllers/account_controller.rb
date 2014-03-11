@@ -10,7 +10,8 @@ class AccountController < ApplicationController
   end
   def app_version
     return unless validate_format
-    yml = YAML.load(File.open("app/views/account/app_changes_#{session[:lang]}.yml"))
+    lang = session[:lang] == 'zh' ? 'zh' : 'en' 
+    yml = YAML.load(File.open("app/views/account/app_changes_#{lang}.yml"))
     changes = yml["changes"]
     ret = []
     old_version = params[:client_version] ? params[:client_version].to_i : 0 

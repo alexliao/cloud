@@ -1,5 +1,7 @@
 ---
 changes: 
+  - code: 700
+    note: recommend swably
   - code: 670
     note: support uploading in background.
   - code: 600
