@@ -1,4 +1,5 @@
 class AppLocale < ActiveRecord::Base
+  attr_accessible :code, :app_id, :name, :version_code
   belongs_to :app
 
   def self.add(lang, country, app, name, version_code)

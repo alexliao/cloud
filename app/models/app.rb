@@ -4,7 +4,7 @@ class App < ActiveRecord::Base
   include CommonHelper
   include FileHelper
   has_many :locales, :class_name => "AppLocale"
-  attr_accessible :package, :signature, :id, :name, :version_code, :version_name, :icon, :apk
+  attr_accessible :package, :signature, :id, :name, :version_code, :version_name, :icon, :apk, :size
 
   def facade()
     ret = {}
